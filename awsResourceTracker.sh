@@ -1,10 +1,12 @@
 #!/bin/bash
 
-######
-# 
-######
+##################
+# Author: Ashish
+# Version: v1
+# This script will help users to track the resources or services usage from the AWS Cloud
+##################
 
-Set -x
+set -x #In Debug Mode
 
 #AWS EC2 Instances List
 echo "Print list of EC2 Instances"
