@@ -4,6 +4,9 @@
 # Author: Ashish
 # Version: v1
 # This script will help users to track the resources or services usage from the AWS Cloud
+# We can extend more resources trackage with use of aws cli to retrieve the information
+# like aws lambda functions, aws ecs, eks, cloudwatch, etc...
+# jq - JQuery Parser [retrieve the information from the JSON body]
 ##################
 
 set -x #In Debug Mode
