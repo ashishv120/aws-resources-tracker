@@ -12,7 +12,7 @@
 set -x #In Debug Mode
 
 #AWS EC2 Instances List
-echo "Print list of EC2 Instances"
+echo "List of EC2 Instances!!!"
 aws ec2 describe-instances | jq '.Reservations[].Instances[].InstanceId'
 
 #AWS S3 Buckets List
