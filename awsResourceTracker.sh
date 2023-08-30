@@ -24,6 +24,6 @@ echo "Print list of IAM Users"
 aws iam list-users
 
 #AWS IAM Roles
-echo "Print list of IAM Roles"
+echo "Prints the list of IAM Roles"
 aws iam list-roles | jq '.Roles[].RoleName'
 
